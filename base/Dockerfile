@@ -1,0 +1,4 @@
+ARG UBUNTU_VERSION
+FROM ubuntu:${UBUNTU_VERSION}
+RUN echo "Hello world"
+COPY * /
